@@ -36,7 +36,7 @@ padding: 20px;
 footer {
 background-color: rgb(5, 138, 172); 
 color: #fff;
-padding: 20px; 
+padding: 110px; 
 }
 
 .footer-content {
@@ -45,8 +45,9 @@ margin: 0 auto;
 }
 
 nav {
-    padding: 10px;
-    background-color: rgb(5, 156, 194);
+    padding: 20px;
+    background-color: #059cc2;
+    width: 100vw;
 }
 
 nav ul {
@@ -75,4 +76,14 @@ nav ul li a:hover {
 
 .texto-footer {
     text-align: center;
+    font-size: large;
+}
+
+img {
+display: block; /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
+margin: 0 auto; /* Centrar las imágenes horizontalmente */
+max-width: 100%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
+border: 3px solid rgb(0, 255, 213); /* Contorno de 3px con un color verde (#69bd45) alrededor de la img.*/
+border-radius: 10px; /* Borde redondeado de 10px para suavizar el contorno */
+margin-left: -10px; /* Desplazamiento a la izquierda de 10px */
 }
